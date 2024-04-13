@@ -7,6 +7,8 @@ import Fade4 from "./components/Fade4";
 import Tfetch from "./components/Tfetch";
 import Effect from "./components/Effect";
 import Tfetch2 from "./components/Tfetch2";
+import Program1 from "./components/Program1";
+import Todolist from "./todolist/Todolist";
 export default function Home() {
   return (
     <>
@@ -18,12 +20,15 @@ export default function Home() {
         <Fade3 />
         <br />
         <Fade4 />
-        <br /> */}
-        {/* <Tfetch /> */}
-        {/* <br />
+        <br />
+        <Tfetch />
+        <br />
         <Effect />
-        <br /> */}
-        <Tfetch2 />
+        <br />
+        <Tfetch2 /> */}
+        {/* <br />
+        <Program1 /> */}
+        <Todolist />
       </div>
     </>
   );
