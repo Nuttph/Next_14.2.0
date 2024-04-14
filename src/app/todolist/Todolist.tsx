@@ -1,11 +1,10 @@
 import React, { useState } from "react";
 
 const Todolist = () => {
-  const [text, setText] = useState([]);
-  const [error, setError] = useState(false);
+  const [text, setText] = useState<string[]>([]);
+  const [error, setError] = useState<boolean>(false);
   const newText = () => {
-    const inText: string = (document.getElementById("list") as HTMLInputElement)
-      .value;
+    const inText = (document.getElementById("list") as HTMLInputElement).value;
     if (inText === "") {
       setError(true);
     } else {
@@ -19,7 +18,7 @@ const Todolist = () => {
     setText(clear);
   };
 
-  const handleSubmit = (event) => {
+  const handleSubmit = (event: any) => {
     event.preventDefault();
   };
 

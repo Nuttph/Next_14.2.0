@@ -9,11 +9,22 @@ import Effect from "./components/Effect";
 import Tfetch2 from "./components/Tfetch2";
 import Program1 from "./components/Program1";
 import Todolist from "./todolist/Todolist";
+import Ref from "./components/Ref";
+import TestData1 from "./tranferData/TestData1";
+import Context from "./tranferData/Context";
+
 export default function Home() {
   return (
     <>
       <div className="">
-        {/* <Fade1 />
+        {/* <TestData1 /> */}
+        <Context />
+      </div>
+    </>
+  );
+}
+{
+  /* <Fade1 />
         <br />
         <Fade2 />
         <br />
@@ -25,11 +36,16 @@ export default function Home() {
         <br />
         <Effect />
         <br />
-        <Tfetch2 /> */}
-        {/* <br />
-        <Program1 /> */}
-        <Todolist />
-      </div>
-    </>
-  );
+        <Tfetch2 /> */
+}
+{
+  /* <br />
+        <Program1 /> */
+}
+{
+  /* <Todolist /> */
+}
+{
+  /* <br />
+        <Ref /> */
 }
