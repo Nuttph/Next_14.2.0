@@ -12,18 +12,24 @@ import Todolist from "./todolist/Todolist";
 import Ref from "./components/Ref";
 import TestData1 from "./tranferData/TestData1";
 import Context from "./tranferData/Context";
+import ShowData from "./fetchData/ShowData";
 
 export default function Home() {
   return (
     <>
       <div className="">
-        {/* <TestData1 /> */}
-        <Context />
+        <ShowData />
       </div>
     </>
   );
 }
 {
+  {
+    /* <TestData1 /> */
+  }
+  {
+    /* <Context /> */
+  }
   /* <Fade1 />
         <br />
         <Fade2 />
