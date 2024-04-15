@@ -8,33 +8,27 @@ import Tfetch from "./components/Tfetch";
 import Effect from "./components/Effect";
 import Tfetch2 from "./components/Tfetch2";
 import Program1 from "./components/Program1";
-import Todolist from "./todolist/Todolist";
+import Todolist from "./components/todolist/Todolist";
 import Ref from "./components/Ref";
-import TestData1 from "./tranferData/TestData1";
-import Context from "./tranferData/Context";
-import ShowData from "./fetchData/ShowData";
-import Task1 from "./task/Task1";
+import TestData1 from "./components/tranferData/TestData1";
+import Context from "./components/tranferData/Context";
+import ShowData from "./components/fetchData/ShowData";
+import Task1 from "./components/task/Task1";
+import TuseEffect from "./components/recapEffect/TuseEffect";
 
 export default function Home() {
   return (
     <>
       <div className="">
-        <Task1 />
-      </div>
-    </>
-  );
-}
-{
-  {
-    /* <ShowData /> */
-  }
-  {
-    /* <TestData1 /> */
-  }
-  {
-    /* <Context /> */
-  }
-  /* <Fade1 />
+        <TuseEffect />
+        {/* <Task1 />
+        <br />
+        <ShowData />
+        <br />
+        <TestData1 />
+        <br />
+        <Context />
+        <Fade1 />
         <br />
         <Fade2 />
         <br />
@@ -46,16 +40,14 @@ export default function Home() {
         <br />
         <Effect />
         <br />
-        <Tfetch2 /> */
-}
-{
-  /* <br />
-        <Program1 /> */
-}
-{
-  /* <Todolist /> */
-}
-{
-  /* <br />
-        <Ref /> */
+        <Tfetch2 />
+        <br />
+        <Program1 />
+        <br />
+        <Todolist />
+        <br />
+        <Ref /> */}
+      </div>
+    </>
+  );
 }
