@@ -13,17 +13,21 @@ import Ref from "./components/Ref";
 import TestData1 from "./tranferData/TestData1";
 import Context from "./tranferData/Context";
 import ShowData from "./fetchData/ShowData";
+import Task1 from "./task/Task1";
 
 export default function Home() {
   return (
     <>
       <div className="">
-        <ShowData />
+        <Task1 />
       </div>
     </>
   );
 }
 {
+  {
+    /* <ShowData /> */
+  }
   {
     /* <TestData1 /> */
   }
